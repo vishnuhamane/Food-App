@@ -10,8 +10,7 @@ streamlit>=1.25.0
 --upgrade pip
 setuptools>=58.0.0
 wheel
-python3 -m ensurepip --upgrade
-python3 -m pip install --upgrade setuptools pip
+
 
 
 
