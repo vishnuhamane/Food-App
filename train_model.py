@@ -5,6 +5,17 @@ from sklearn.metrics import mean_squared_error
 import xgboost as xgb
 import joblib
 import pandas as pd
+import subprocess
+import sys
+
+# Function to install a package using pip
+def install(package):
+    subprocess.check_call([sys.executable, "-m", "pip", "install", package])
+
+# Example usage
+if __name__ == "__main__":
+    install('dispuilt')  # Replace 'dispuilt' with the actual package name if different
+
 
 Path to your CSV file
 # Sample historical data for training
