@@ -9,7 +9,8 @@ streamlit>=1.25.0
 wheel
 setuptools>=65.0.0
 distutils
-python==3.x
+python==3.8
+
 
 
 
