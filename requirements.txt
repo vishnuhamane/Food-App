@@ -10,7 +10,7 @@ wheel
 setuptools>=65.0.0
 distutils
 python==3.8
-
+setuptools
 
 
 
