@@ -10,6 +10,9 @@ wheel
 setuptools>=65.0.0
 distutils
 setuptools
+streamlit
+
+
 
 
 
